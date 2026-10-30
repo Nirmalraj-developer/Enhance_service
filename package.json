@@ -1,0 +1,22 @@
+{
+  "name": "ai-extraction-service",
+  "version": "1.0.0",
+  "description": "AI Extraction & NER Service (Stage 2) - Entity identification & text formatting",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test:ner": "node src/scripts/test-ner.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.12.0",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1",
+    "pino": "^9.4.0",
+    "pino-pretty": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+
